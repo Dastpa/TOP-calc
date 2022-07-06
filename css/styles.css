@@ -57,10 +57,20 @@ body {
 }
 
 .screen {
+    display: flex;
     background: #92DCE5;
-    width: 100%;
+    color: #EEE5E9;
+    width: 310px;
     height: 160px;
     border-radius: 20px;
+    padding: 20px;
+    justify-content: end;
+    align-items: center;
+}
+
+.output {
+    font-size: 32px;
+    color: black;
 }
 
 .buttons {
